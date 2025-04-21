@@ -41,7 +41,7 @@
   width: 100%;
   // height: size(1080);
   background-image:
-    linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8), rgba(255, 255, 255, 0.8)),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(200, 200, 200, 0.5), rgba(255, 255, 255, 0.5)),
     url("@/section/s5/bg.webp");
   background-size: contain;
   background-position: center;

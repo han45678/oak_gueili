@@ -54,7 +54,7 @@ onBeforeUnmount(() => {
           }">
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s6/pic01.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s6/pic01.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">3D透視示意圖</span>
                 </div>
 
@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s6/pic02.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s6/pic02.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">3D透視示意圖</span>
                 </div>
 
@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s6/pic03.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s6/pic03.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff]">3D透視示意圖</span>
                 </div>
 

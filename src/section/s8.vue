@@ -31,7 +31,7 @@
 .s8 {
   width: 100%;
   height: size-m(698);
-  background-image:url("@/section/s8/bg.png");
+  background-image:url("@/section/s8/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

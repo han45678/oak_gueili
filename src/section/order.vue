@@ -3,8 +3,8 @@
     <div class="order-section">
 
       <div class="title">
-        <img class="block md:block" src="@/section/form/title.svg" alt="title">
-        <img class="hidden md:hidden" src="@/section/form/title_m.svg" alt="title">
+        <img src="@/section/form/title.svg" alt="title">
+        <!-- <img class="hidden md:hidden" src="@/section/form/title_m.svg" alt="title"> -->
       </div>
 
       <!-- Form -->

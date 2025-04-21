@@ -26,7 +26,7 @@ onMounted(() => {
       <h3 class="font-['Noto_Sans_TC'] text-[#fff]">對坐百年博愛政經特區，權掌西門雙捷運站</h3>
     </div>
     <div class="scroll-container">
-      <img src="@/section/s3/bg.jpg" alt="pic" />
+      <img src="@/section/s3/bg.webp" alt="pic" />
     </div>
   </article>
 </template>

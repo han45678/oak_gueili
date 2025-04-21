@@ -1329,6 +1329,7 @@ onBeforeUnmount(() => {
             .line {
               margin-top: size(20);
               margin-right: auto;
+              margin-left: 0;
               max-width: size(630);
               height: size(18);
             }

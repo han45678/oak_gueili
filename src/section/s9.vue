@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
 
         <div class="author_main hidden md:block">
           <div class="author_pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-            <img src="@/section/s9/author.png" alt="author">
+            <img src="@/section/s9/author.webp" alt="author">
           </div>
           <div class="list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <img src="@/section/s9/works.svg" alt="title">
@@ -115,7 +115,7 @@ onBeforeUnmount(() => {
           }">
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s9/pic01.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s9/pic01.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">
                     信義區 琢格77<br>
                     3D外觀透視圖
@@ -130,7 +130,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s9/pic02.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s9/pic02.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">Riverside 66</span>
                   <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">Riverside 66</span>
                 </div>
@@ -139,7 +139,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s9/pic03.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s9/pic03.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">New World Hotel</span>
                   <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">New World Hotel</span>
                 </div>
@@ -147,7 +147,7 @@ onBeforeUnmount(() => {
             </SplideSlide>
             <SplideSlide class="slide">
               <div class="slide_item">
-                <div class="item_pic"><img src="@/section/s9/pic04.png" alt="pic">
+                <div class="item_pic"><img src="@/section/s9/pic04.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">Four Seasons</span>
                   <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">Four Seasons</span>
                 </div>
@@ -250,12 +250,19 @@ onBeforeUnmount(() => {
         }
 
         .author_pic {
+          img{
+            width: 100%;
+          }
           @media screen and (min-width:768px) {}
         }
 
         .list {
+          padding-top: size-m(30);
           @media screen and (min-width:768px) {
             padding-top: size(30);
+          }
+          img{
+            width: 100%;
           }
         }
 

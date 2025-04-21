@@ -30,7 +30,7 @@
         <div class="pic_bottom">
           <img class="pic_logo_text" src="@/section/s2/pic_logo_text.svg" alt="pic" data-aos="fade-up"
             data-aos-duration="1000" data-aos-delay="500">
-          <img class="pic_logo" src="@/section/s2/pic_logo.png" alt="pic">
+          <img class="pic_logo" src="@/section/s2/pic_logo.webp" alt="pic">
         </div>
       </div>
     </div>

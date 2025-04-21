@@ -27,8 +27,8 @@
         </p>
         <div class="text_bottom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <span class="font-['Noto_Sans_TC'] text-[#000]">這是橡樹建築的使命，更是動力</span>
-          <img class="hidden md:block" src="@/section/s7/text_bottom_pic.png" alt="text_bottom_pic">
-          <img class="block md:hidden" src="@/section/s7/text_bottom_pic_m.png" alt="text_bottom_pic">
+          <img class="hidden md:block" src="@/section/s7/text_bottom_pic.webp" alt="text_bottom_pic">
+          <img class="block md:hidden" src="@/section/s7/text_bottom_pic_m.webp" alt="text_bottom_pic">
         </div>
       </div>
   </article>
