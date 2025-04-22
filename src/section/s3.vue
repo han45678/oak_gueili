@@ -1,7 +1,14 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
+const scrollContainer = ref(null);
 const m_hint = ref(false);
+
+function handleImageLoad() {
+  if (scrollContainer.value && window.innerWidth < 767) {
+    scrollContainer.value.scrollLeft = scrollContainer.value.scrollWidth;
+  }
+}
 
 onMounted(() => {
   if (window.innerWidth < 767) {
@@ -25,8 +32,8 @@ onMounted(() => {
       <h2 class="font-['Noto_Serif_TC'] text-[#fff]">大開西城天際線新眼界</h2>
       <h3 class="font-['Noto_Sans_TC'] text-[#fff]">對坐百年博愛政經特區，權掌西門雙捷運站</h3>
     </div>
-    <div class="scroll-container">
-      <img src="@/section/s3/bg.webp" alt="pic" />
+    <div class="scroll-container" ref="scrollContainer">
+      <img src="@/section/s3/bg.webp" alt="pic" @load="handleImageLoad" />
     </div>
   </article>
 </template>
@@ -147,10 +154,12 @@ onMounted(() => {
   0% {
     transform: translateX(0px);
   }
+
   33% {
     transform: translateX(-115px);
-    
+
   }
+
   66% {
     transform: translateX(115px);
   }

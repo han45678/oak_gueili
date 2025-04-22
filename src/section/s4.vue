@@ -189,8 +189,8 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
-  if (splideRef1.value) {
-    splideRef1.value.splide.off('moved');
+  if (splideRef6.value) {
+    splideRef6.value.splide.off('moved');
   }
 });
 </script>
@@ -280,7 +280,7 @@ onBeforeUnmount(() => {
             </div>
 
           </div>
-          
+
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <img class="slogan_text_pc hidden md:block" src="@/section/s4/slogan_text_pc.svg" alt="slogan_text_pc">
           </div>
@@ -395,7 +395,7 @@ onBeforeUnmount(() => {
             「橡樹貴麗」信手捻來繁華與便捷
           </p>
 
-          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"  class="block md:hidden">
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="block md:hidden">
             每個世代青春的記憶都從西門町開始<br>
             真善美戲院、中華商場、國賓戲院、<br>
             萬年大樓…<br>
@@ -674,7 +674,7 @@ onBeforeUnmount(() => {
             成為首都文化圈的都市廣場<br>
             散步950米台北植物園8.2公頃自然森境、綠域風光<br>
             氣定神閒的從容街廓，一手繁華、一手文華<br>
-             <strong>交織永遠經典的博愛特區，注定不凡的價值核心</strong>
+            <strong>交織永遠經典的博愛特區，注定不凡的價值核心</strong>
           </p>
 
           <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="block md:hidden">
@@ -878,8 +878,8 @@ onBeforeUnmount(() => {
                 line-height: 1.7;
 
                 @media screen and (min-width:768px) {
-                 bottom: size(8); 
-                 right: size-m(3);
+                  bottom: size(8);
+                  right: size-m(3);
                 }
               }
             }
@@ -1010,6 +1010,14 @@ onBeforeUnmount(() => {
             height: size-m(50);
             display: block;
           }
+        }
+      }
+    }
+
+    &.item6 {
+      .wrapper {
+        .text {
+          padding-bottom: size-m(0);
         }
       }
     }
