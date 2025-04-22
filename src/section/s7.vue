@@ -90,6 +90,7 @@
       }
       .line {
           margin-bottom: size-m(30);
+          margin-top: size-m(30);
           width: 100%;
           height: size-m(10);
           background: linear-gradient(to right,

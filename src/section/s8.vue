@@ -30,13 +30,13 @@
 
 .s8 {
   width: 100%;
-  height: size-m(698);
+  height: size-m(900);
   background-image:url("@/section/s8/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   @media screen and (min-width:768px) {
-    height: size(1080);
+    height: size(1220);
   }
   .text {
       text-align: center;

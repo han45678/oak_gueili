@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
         <h2 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           建築會留下名字<br>成為口耳相傳的記憶
         </h2>
-        <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <p class="font-['Noto_Sans_TC'] text-[#000] hidden md:block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           如果不是三宅一生<br>
           摺皺的美感都會被熨斗剷平<br>
           如果不是柯布西耶<br>
@@ -119,6 +119,32 @@ onBeforeUnmount(() => {
           建築切分的上下量體降低整體尺度以尊重周遭涵構<br>
           各層樓漸次向上退縮則有助提升空間開放感<br>
           上部臨摹瀑布波動起伏，並在轉角處階梯狀傾瀉而下<br>
+          如同山壁的岩石包裹流淌之飛瀑<br>
+          矗於地表，鐫上天際
+        </p>
+
+        <p class="font-['Noto_Sans_TC'] text-[#000] block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          如果不是三宅一生<br>
+          摺皺的美感都會被熨斗剷平<br>
+          如果不是柯布西耶<br>
+          鋼鐵與混凝土恐怕從此與美的神韻絕緣<br>
+          對未來理解太晚的人<br>
+          不久就要嚐到落後的苦澀<br>
+          有一副看遠的眼光<br>
+          未來的視界才會掌握在你的手上<br>
+          橡樹建設看向建築未來觀<br>
+          引領高品味的流行感度<br>
+          <br>
+          橡樹建設攜手國際頂尖建築團隊<br>
+          捎來瑰麗飯店、四季酒店、新世界酒店<br>
+          等全球一線建築的美學氣場<br>
+          將自然的鬼斧神工融入建築設計<br>
+          在百年西區核心鐫鑄當代地景雕塑<br>
+          建築切分的上下量體降低整體尺度<br>
+          以尊重周遭涵構<br>
+          各層樓漸次向上退縮則有助提升空間開放感<br>
+          上部臨摹瀑布波動起伏<br>
+          並在轉角處階梯狀傾瀉而下<br>
           如同山壁的岩石包裹流淌之飛瀑<br>
           矗於地表，鐫上天際
         </p>
@@ -145,6 +171,7 @@ onBeforeUnmount(() => {
     display: flex;
     flex-wrap: wrap;
     padding: size-m(60) size-m(30) 0 size-m(30);
+    justify-content: center;
 
     @media screen and (min-width:768px) {
       justify-content: center;
@@ -188,6 +215,12 @@ onBeforeUnmount(() => {
               font-weight: 500;
               font-size: 15px;
               line-height: 1.7;
+
+              @media screen and (min-width:768px) {
+              bottom: size(10);
+              right: size(20);
+              }
+              
             }
           }
         }
@@ -350,7 +383,8 @@ onBeforeUnmount(() => {
 
       .text_pic {
         @media screen and (min-width:768px) {
-          margin-top: size(100);
+          margin-top: size(130);
+          margin-left:size(0);
         }
       }
     }

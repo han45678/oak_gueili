@@ -79,7 +79,7 @@
 
         @media screen and (min-width:768px) {
           width: size(340);
-          margin: size(60) 0 size(75) 0;
+          margin: size(60) 0 size(75) size(185);
         }
 
         text-align: center;
@@ -190,7 +190,9 @@
           width: size-m(250);
           padding-left: size-m(10);
           @media screen and (min-width:768px) {
-            width: size(635);
+            width: size(670);
+            margin-top: size(10);
+            padding-left: 0;
           }
 
           

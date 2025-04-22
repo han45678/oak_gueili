@@ -16,11 +16,25 @@
         <h2 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           獻給台北的世界封面<br>致以頂尖最臻稀的款待
         </h2>
-        <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <p class="font-['Noto_Sans_TC'] text-[#000] hidden md:block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           稱紐約瑰麗酒店為傳奇並不為過<br>
           從三○年代至今，就是名流貴族聚集的場所<br>
           不僅受到多任美國總統和賈姬的喜愛<br>
           英國皇室如威爾斯親王、黛安娜王妃、威廉王子與凱特王妃都曾下榻此處<br>
+          這裡是一方可以窺見紐約層峰頂端生活的視窗<br>
+          濃縮了曼哈頓上東城的所有美好<br>
+          <br>
+          把瑰麗酒店美學地標的精神帶進台灣<br>
+          打造台北最美的奢居經典，締造住宅雍雅氣度<br>
+          創造華貴生活價值典範，致以最臻稀的款待
+        </p>
+
+        <p class="font-['Noto_Sans_TC'] text-[#000] block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          稱紐約瑰麗酒店為傳奇並不為過<br>
+          從三○年代至今，就是名流貴族聚集的場所<br>
+          不僅受到多任美國總統和賈姬的喜愛<br>
+          英國皇室如威爾斯親王、黛安娜王妃<br>
+          威廉王子與凱特王妃都曾下榻此處<br>
           這裡是一方可以窺見紐約層峰頂端生活的視窗<br>
           濃縮了曼哈頓上東城的所有美好<br>
           <br>

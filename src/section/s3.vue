@@ -22,7 +22,7 @@ onMounted(() => {
       </div>
     </transition>
     <div class="title">
-      <h2 class="font-['Noto_Sans_TC'] text-[#fff]">大開西城天際線新眼界</h2>
+      <h2 class="font-['Noto_Serif_TC'] text-[#fff]">大開西城天際線新眼界</h2>
       <h3 class="font-['Noto_Sans_TC'] text-[#fff]">對坐百年博愛政經特區，權掌西門雙捷運站</h3>
     </div>
     <div class="scroll-container">
@@ -89,6 +89,7 @@ onMounted(() => {
     left: 0;
     right: 0;
     margin: auto;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.50);
 
     @media screen and (min-width: 767px) {
       top: size(75);

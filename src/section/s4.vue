@@ -300,7 +300,7 @@ onBeforeUnmount(() => {
           <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000"
             data-aos-delay="500">千億建設贏接西區國門榮華</h3>
           <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-            眼前，就是勝景<br>
+            <strong>眼前，就是勝景</strong><br>
             台北東軸西轉，首都國門百年榮華再起<br>
             家門通國門，對坐首都心臟核心台北雙子星<br>
             和家中坐對望的，將是您自己的耀眼未來<br>
@@ -377,7 +377,7 @@ onBeforeUnmount(() => {
             data-aos-delay="500">中華大道，西門潮派</h2>
           <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000"
             data-aos-delay="500">都會時尚指標圈粉國際</h3>
-          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="hidden md:block">
             每個世代青春的記憶都從西門町開始<br>
             真善美戲院、中華商場、國賓戲院、<br class="block md:hidden">
             萬年大樓…<br>
@@ -387,14 +387,31 @@ onBeforeUnmount(() => {
             正前方則是軸線翻轉的西區門戶計畫<br>
             <br>
             時至今日西門商圈仍引領時代潮流<br>
-            誠品書店、意舍酒店、唐吉訶德<br class="block md:hidden">
+            誠品書店、意舍酒店、唐吉訶德…各式潮牌名品<br>
+            到市井小民最愛的家樂福、麥當勞、口碑傳頌的美食料理<br>
+            流行個性與藝術能量讓這裡日夜精彩<br>
+            散發出令人著迷的文化魅力<br>
+            2024年更打敗台北101，狂吸221萬人，成為北市最強景點 <br>
+            「橡樹貴麗」信手捻來繁華與便捷
+          </p>
+
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"  class="block md:hidden">
+            每個世代青春的記憶都從西門町開始<br>
+            真善美戲院、中華商場、國賓戲院、<br>
+            萬年大樓…<br>
+            在老台北的記憶裡，中華路是最繁華的大道<br>
+            一邊是全台最大商業娛樂中心西門町<br>
+            一邊是全台政經重鎮的博愛特區<br>
+            正前方則是軸線翻轉的西區門戶計畫<br>
+            <br>
+            時至今日西門商圈仍引領時代潮流<br>
+            誠品書店、意舍酒店、唐吉訶德<br>
             …各式潮牌名品<br>
-            到市井小民最愛的家樂福、麥當勞<br class="block md:hidden">
+            到市井小民最愛的家樂福、麥當勞<br>
             、口碑傳頌的美食料理<br>
             流行個性與藝術能量讓這裡日夜精彩<br>
             散發出令人著迷的文化魅力<br>
-            2024年更打敗台北101，狂吸221萬人<br class="block md:hidden">
-            <span class="block md:hidden">，</span>
+            2024年更打敗台北101，狂吸221萬人<br>
             成為北市最強景點 <br>
             「橡樹貴麗」信手捻來繁華與便捷
           </p>
@@ -432,10 +449,10 @@ onBeforeUnmount(() => {
             </Splide>
 
             <div class="splide_btn top55 prev" @click="goPrev3">
-              <img class="block md:hidden" src="@/section/s4/next.svg" />
+              <img class="block md:hidden" src="@/section/s4/next_w.svg" />
             </div>
             <div class="splide_btn top55 next" @click="goNext3">
-              <img class="block md:hidden" src="@/section/s4/prev.svg" />
+              <img class="block md:hidden" src="@/section/s4/next_w.svg" />
             </div>
 
             <div class="dots block md:hidden">
@@ -555,7 +572,19 @@ onBeforeUnmount(() => {
             data-aos-delay="500">建中北一雙首學</h2>
           <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000"
             data-aos-delay="500">從企業菁英到權貴名流都是校友</h3>
-          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="hidden md:block">
+            <strong>青青子衿，朗朗書聲</strong><br>
+            建國中學、北一女中，頂級學區、頂尖名校<br>
+            培育菁英無數<br>
+            傑出校友從企業領袖到權貴名流<br>
+            政商學、醫療、人文藝術遍及各行各業<br>
+            區域內還有雙園國小、西園國小、南海實幼<br>
+            從小學到大學為小小菁英鋪設人生坦途<br>
+            用書香涵養一座城市的氣質<br>
+            為孩子贏得自己的未來
+          </p>
+
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="block md:hidden">
             青青子衿，朗朗書聲<br>
             建國中學、北一女中，頂級學區、頂尖名校<br>
             培育菁英無數<br>
@@ -630,15 +659,25 @@ onBeforeUnmount(() => {
     <div class="item item6">
       <div class="wrapper">
         <div class="text">
-          <img class="icon block md:hidden " src="@/section/s4/building_icon04.webp" alt="icon">
+          <img class="icon block md:hidden" src="@/section/s4/building_icon05.webp" alt="icon">
           <h2 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000"
             data-aos-delay="500">
-            時光豐釀<br>
+            時光豐釀<br class="block md:hidden">
             百年西本願寺、紅樓
           </h2>
           <h3 class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000"
             data-aos-delay="500">8.2 公頃台北植物園逸趣更濃</h3>
-          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="hidden md:block">
+            日式老屋的寧靜氛圍，如同京都的雅緻風情凝聚<br>
+            緊鄰百年古蹟西本願寺、西門紅樓透過活化再生<br>
+            蛻變成為人文薈萃的藝術匯聚地<br>
+            成為首都文化圈的都市廣場<br>
+            散步950米台北植物園8.2公頃自然森境、綠域風光<br>
+            氣定神閒的從容街廓，一手繁華、一手文華<br>
+             <strong>交織永遠經典的博愛特區，注定不凡的價值核心</strong>
+          </p>
+
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="block md:hidden">
             日式老屋的寧靜氛圍，如同京都的雅緻風情凝聚<br>
             緊鄰百年古蹟西本願寺、西門紅樓透過活化再生<br>
             蛻變成為人文薈萃的藝術匯聚地<br>
@@ -648,7 +687,7 @@ onBeforeUnmount(() => {
             交織永遠經典的博愛特區<br>
             注定不凡的價值核心
           </p>
-          <img class="icon hidden md:block  " src="@/section/s4/building_icon04_pc.webp" alt="icon">
+          <img class="icon hidden md:block  " src="@/section/s4/building_icon05_pc.webp" alt="icon">
         </div>
         <div class="pic">
           <div class="splide">
@@ -666,7 +705,7 @@ onBeforeUnmount(() => {
               <SplideSlide class="slide">
                 <div class="slide_item">
                   <div class="item_pic"><img src="@/section/s4/pic14.webp" alt="pic">
-                    <span class="font-['Noto_Sans_TC'] text-[#fff]">建國中學</span>
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">植物園</span>
                   </div>
 
                 </div>
@@ -674,21 +713,21 @@ onBeforeUnmount(() => {
               <SplideSlide class="slide">
                 <div class="slide_item">
                   <div class="item_pic"><img src="@/section/s4/pic15.webp" alt="pic">
-                    <span class="font-['Noto_Sans_TC'] text-[#fff]">南門國小</span>
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">西門紅樓</span>
                   </div>
                 </div>
               </SplideSlide>
               <SplideSlide class="slide">
                 <div class="slide_item">
                   <div class="item_pic"><img src="@/section/s4/pic16.webp" alt="pic">
-                    <span class="font-['Noto_Sans_TC'] text-[#fff]">北一女中</span>
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">西本願寺</span>
                   </div>
                 </div>
               </SplideSlide>
               <SplideSlide class="slide">
                 <div class="slide_item">
                   <div class="item_pic"><img src="@/section/s4/pic17.webp" alt="pic">
-                    <span class="font-['Noto_Sans_TC'] text-[#fff]">北一女中</span>
+                    <span class="font-['Noto_Sans_TC'] text-[#fff]">龍山河濱公園</span>
                   </div>
                 </div>
               </SplideSlide>
@@ -769,7 +808,7 @@ onBeforeUnmount(() => {
 
         h3 {
           font-size: size-m(16);
-          font-weight: 400;
+          font-weight: 600;
           line-height: 1.4;
           margin-top: size-m(10);
           margin-bottom: size-m(10);
@@ -778,6 +817,7 @@ onBeforeUnmount(() => {
             font-size: size(28);
             margin-top: size(10);
             margin-bottom: size(10);
+            font-weight: 400;
           }
         }
 
@@ -815,11 +855,11 @@ onBeforeUnmount(() => {
             }
 
             &.pr {
-              padding-right: size-m(30);
+              padding-right: size-m(0);
             }
 
             &.pl {
-              padding-left: size-m(30);
+              padding-left: size-m(0);
             }
 
             .item_pic {
@@ -836,6 +876,11 @@ onBeforeUnmount(() => {
                 font-weight: 500;
                 font-size: 15px;
                 line-height: 1.7;
+
+                @media screen and (min-width:768px) {
+                 bottom: size(8); 
+                 right: size-m(3);
+                }
               }
             }
           }
@@ -961,6 +1006,7 @@ onBeforeUnmount(() => {
           .train_pic {
             margin-left: auto;
             margin-right: 0;
+            margin-top: size-m(10);
             height: size-m(50);
             display: block;
           }
@@ -1014,7 +1060,7 @@ onBeforeUnmount(() => {
               position: absolute;
               width: size(830);
               left: calc(-100% + size(170));
-              bottom: size(30);
+              bottom: size(0);
             }
 
             .line {
@@ -1039,7 +1085,7 @@ onBeforeUnmount(() => {
             width: 50%;
             max-width: size(545);
             padding: 0;
-            margin-top: size(125);
+            margin-top: size(45);
             order: 2;
 
             .icon {
@@ -1053,7 +1099,7 @@ onBeforeUnmount(() => {
             .slogan_text {
               position: absolute;
               right: size(100);
-              top: size(250);
+              top: size(150);
             }
           }
 
@@ -1089,7 +1135,7 @@ onBeforeUnmount(() => {
           }
 
           .pic {
-            width: 50%;
+            width: 57%;
             max-width: size(975);
 
             .splide {
@@ -1248,7 +1294,7 @@ onBeforeUnmount(() => {
             width: 50%;
             max-width: size(545);
             padding: 0;
-            margin-top: size(100);
+            margin-top: size(70);
             order: 2;
 
             .icon {
@@ -1262,7 +1308,7 @@ onBeforeUnmount(() => {
             .slogan_text {
               position: absolute;
               right: size(100);
-              top: size(250);
+              top: size(100);
             }
           }
 
@@ -1284,9 +1330,10 @@ onBeforeUnmount(() => {
           gap: size(100);
           justify-content: center;
 
+
           .text {
             width: 50%;
-            max-width: size(545);
+            max-width: size(575);
             padding: 0;
             margin-top: 0;
 
@@ -1339,5 +1386,6 @@ onBeforeUnmount(() => {
     }
 
   }
+
 }
 </style>

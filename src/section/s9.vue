@@ -80,10 +80,23 @@ onBeforeUnmount(() => {
           <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             這是一棟可以榮登<br>Wallpaper雜誌封面的建築
           </h2>
-          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="hidden md:block">
             跨越12,500公里的頂奢精品血統<br>
             曾任紐約KPF建築師事務所的Edwin Lau<br>
             參與規劃國際瑰麗酒店、四季酒店等世界傳奇酒店<br>
+            經典作品遍及歐、美、亞三大洲<br>
+            極具原創性、高度美學價值與藝術品味深度<br>
+            回應地景文脈與場域精神<br>
+            將建築獨特故事說得淋漓盡致<br>
+            當人們置身其間，空前的感官體驗啟程<br>
+            <b>由外向心靈層次遞進，樹立奢華的嶄新層級</b>
+          </p>
+
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="block md:hidden">
+            跨越12,500公里的頂奢精品血統<br>
+            曾任紐約KPF建築師事務所的Edwin Lau<br>
+            參與規劃國際瑰麗酒店<br>
+            四季酒店等世界傳奇酒店<br>
             經典作品遍及歐、美、亞三大洲<br>
             極具原創性、高度美學價值與藝術品味深度<br>
             回應地景文脈與場域精神<br>
@@ -120,7 +133,7 @@ onBeforeUnmount(() => {
                     信義區 琢格77<br>
                     3D外觀透視圖
                   </span>
-                  <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">
+                  <span class="font-['Noto_Sans_TC'] text-[#fff] hidden md:block">
                     信義區 琢格77<br>
                     3D外觀透視圖
                   </span>
@@ -132,7 +145,7 @@ onBeforeUnmount(() => {
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s9/pic02.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">Riverside 66</span>
-                  <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">Riverside 66</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff] hidden md:block">Riverside 66</span>
                 </div>
 
               </div>
@@ -141,7 +154,7 @@ onBeforeUnmount(() => {
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s9/pic03.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">New World Hotel</span>
-                  <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">New World Hotel</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff] hidden md:block">New World Hotel</span>
                 </div>
               </div>
             </SplideSlide>
@@ -149,7 +162,7 @@ onBeforeUnmount(() => {
               <div class="slide_item">
                 <div class="item_pic"><img src="@/section/s9/pic04.webp" alt="pic">
                   <span class="font-['Noto_Sans_TC'] text-[#fff] block md:hidden">Four Seasons</span>
-                  <span class="font-['Noto_Sans_TC'] text-[#000] hidden md:block">Four Seasons</span>
+                  <span class="font-['Noto_Sans_TC'] text-[#fff] hidden md:block">Four Seasons</span>
                 </div>
               </div>
             </SplideSlide>
@@ -217,6 +230,7 @@ onBeforeUnmount(() => {
         line-height: 1.4;
         letter-spacing: 0.03;
         font-size: size-m(24);
+        margin-bottom: size-m(15);
       }
 
       p {
@@ -379,6 +393,11 @@ onBeforeUnmount(() => {
               font-weight: 500;
               font-size: 15px;
               line-height: 1.7;
+
+              @media screen and (min-width:768px) {
+              bottom: size(5);
+              right: size(10);  
+              }
             }
           }
         }

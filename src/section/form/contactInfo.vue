@@ -113,11 +113,11 @@
 @import "@/assets/style/function.scss";
 
 .bg-color1 {
-  background-color: #00312E;
+  background-color: #9e773c;
 }
 
 .hover\:bg-color2:hover {
-  background-color: #002421;
+  background-color: #573f1c;
 }
 
 
@@ -264,7 +264,7 @@
 
 .modal-box {
   img {
-    filter: invert(12%) sepia(29%) saturate(4484%) hue-rotate(205deg) brightness(98%) contrast(113%);
+    filter: invert(33%) sepia(97%) saturate(322%) hue-rotate(2deg) brightness(93%) contrast(89%);
   }
 }
 

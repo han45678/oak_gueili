@@ -62,13 +62,14 @@ $house-c2: #000;
         .item {
             line-height: size(17);
             font-size: size(16);
-            align-items: flex-start;
+            align-items: center;
             line-height: 1.5;
             text-align: left;
             border-left: 2px solid $house-c1;
 
             .sub {
                 color: $house-c1;
+                width: size(70);
                 // min-width: 4.5em;
             }
         }
@@ -101,6 +102,11 @@ $house-c2: #000;
 
             .item {
                 font-size: size-m(13);
+
+                .sub {
+                width: size-m(60);
+            }
+
             }
         }
     }
@@ -115,27 +121,43 @@ import info from "@/info"
 const data = ref([
     {
         title: "投資興建",
-        content: "XXX"
+        content: "橡樹建設股份有限公司"
     },
     {
         title: "建築設計",
-        content: "XXX"
+        content: "Kecerra Ltd 建築事務所 ｜WELLS 未來示設計顧問有限公司"
+    },
+    {
+        title: "基地面積",
+        content: "183.01坪"
     },
     {
         title: "建照號碼",
-        content: "XXX"
+        content: "113建字第0230號"
     },
     {
-        title: "行銷企劃",
-        content: "XXX"
+        title: "結構技師",
+        content: "康閱印土木結構技師事務所"
+    },
+    {
+        title: "格局規劃",
+        content: "18-31坪｜2-3房"
+    },
+    {
+        title: "證照號碼",
+        content: "(111)新北經字第003998號"
     },
     {
         title: "經紀人",
-        content: "XXX"
+        content: "陳明玉"
     },
     {
-        title: "使用執照",
-        content: "以上項目皆可自由增減調整 區塊也可隱藏"
+        title: "銷售中心",
+        content: "台北市萬華區內江街3號"
+    },
+    {
+        title: "連絡電話",
+        content: "(02)2382-2999"
     },
 ])
 </script>

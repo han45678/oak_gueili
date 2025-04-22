@@ -11,11 +11,11 @@
             <!-- <div class="logo cursor-pointer z-10" v-bind:class="{ 'open': menuOpen }" @click="scrollTo('.s1')"></div> -->
             <!-- <template> -->
             <div class="menu-item cursor-pointer text-black font-['noto_sans_tc']"
-                @click="scrollTo('#s2',0)">
+                @click="scrollTo('#s4',0)">
                 <span>獨一精粹地段</span>
             </div>
             <div class="menu-item cursor-pointer text-black font-['noto_sans_tc']"
-                @click="scrollTo('#s6',0)">
+                @click="scrollTo('#s5',0)">
                 <span>獨秀瑰麗美學</span>
             </div>
             <div class="menu-item cursor-pointer text-black font-['noto_sans_tc']"
