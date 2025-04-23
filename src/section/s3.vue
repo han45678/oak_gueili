@@ -13,6 +13,9 @@ function handleImageLoad() {
 onMounted(() => {
   if (window.innerWidth < 767) {
     m_hint.value = true;
+    setTimeout(()=>{
+      handleImageLoad()
+    },600)
   }
 });
 </script>
