@@ -3,6 +3,8 @@
 
     <video autoplay muted playsinline disablePictureInPicture controlslist="nodownload nofullscreen noremoteplay"
       controls="false">
+      <!-- <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> -->
+    </video>
   </article>
 </template>
 
