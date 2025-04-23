@@ -452,7 +452,7 @@ onBeforeUnmount(() => {
               <img class="block md:hidden" src="@/section/s4/next_w.svg" />
             </div>
             <div class="splide_btn top55 next" @click="goNext3">
-              <img class="block md:hidden" src="@/section/s4/next_w.svg" />
+              <img class="block md:hidden" src="@/section/s4/prev_w.svg" />
             </div>
 
             <div class="dots block md:hidden">
