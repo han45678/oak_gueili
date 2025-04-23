@@ -61,7 +61,7 @@
     font-size: size-m(16);
     flex-direction: column;
     padding: 0;
-    gap: size-m(50);=
+    gap: size-m(50);
     .logo {
       width: size-m(215);
     }
