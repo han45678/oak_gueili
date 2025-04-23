@@ -3,10 +3,6 @@
 
     <video autoplay muted playsinline disablePictureInPicture controlslist="nodownload nofullscreen noremoteplay"
       controls="false">
-      <!-- <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> -->
-    </video>
-    <!-- <img src="./s1/logo.webp" class="logo" data-aos="zoom-in" data-aos-delay="0">
-    <img src="./s1/txt.svg" class="txt" data-aos="zoom-in" data-aos-delay="200"> -->
   </article>
 </template>
 
@@ -63,10 +59,7 @@
     font-size: size-m(16);
     flex-direction: column;
     padding: 0;
-    gap: size-m(50);
-    background: url("@/section/s1/bgm.webp");
-    background-size: cover;
-
+    gap: size-m(50);=
     .logo {
       width: size-m(215);
     }
