@@ -137,7 +137,7 @@ const data = ref([
     },
     {
         title: "結構技師",
-        content: "康閱印土木結構技師事務所"
+        content: "陳荻閎結構技師事務所"
     },
     {
         title: "格局規劃",
